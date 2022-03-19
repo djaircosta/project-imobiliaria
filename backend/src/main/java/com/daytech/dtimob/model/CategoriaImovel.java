@@ -24,4 +24,20 @@ public class CategoriaImovel implements Serializable {
     @Column(name = "nome_desc", nullable = false)
     private String nomeDesc;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNomeDesc() {
+        return nomeDesc;
+    }
+
+    public void setNomeDesc(String nomeDesc) {
+        this.nomeDesc = nomeDesc;
+    }
+
 }
